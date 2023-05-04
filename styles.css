@@ -38,6 +38,7 @@ header div ul li {
 
 main {
   margin-top: -3px;
+  background-color: lightgray;
 }
 
 main section {
@@ -63,6 +64,10 @@ main article {
   margin-right: auto;
 }
 
+main article h2 {
+    margin-top : 2em;
+}
+
 main article p {
     line-height: 1.5em;
 }
@@ -81,7 +86,9 @@ main article ul li {
   padding: 1em;
   font-weight: bold;
   list-style: none;
-  box-shadow: 1px 1px 1px 1px lightgray;
+  border-radius: 0.3em;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px gray;
 }
 
 footer {
